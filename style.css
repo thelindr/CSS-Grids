@@ -1,0 +1,47 @@
+* {box-sizing: border-box}
+
+body {
+  background: lightblue;
+  margin: 5%;
+}
+
+p {
+    font-family: Helvetica;
+}
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 16%);
+  grid-auto-rows: minmax(200px,auto);
+  grid-gap: 15px;
+  justify-content: center;
+}
+
+.box {
+  background-color: white;
+  color: black;
+}
+
+.wide {
+  grid-column: span 2;
+
+}
+
+.tall {
+  grid-row: span 2;
+}
+
+#B {
+  background-image: url(assets/a.png);
+  background-size: cover;
+}
+
+#C {
+  background-image: url(assets/curly_bracet.png);
+  background-size: cover;
+  background-position: center;
+}
+#D {
+  background-image: url(assets/and.png);
+  background-size: cover;
+}
