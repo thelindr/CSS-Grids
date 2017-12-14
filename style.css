@@ -3,10 +3,16 @@
 body {
   background: lightblue;
   margin: 5%;
+  font-family: Helvetica;
 }
 
 p {
     font-family: Helvetica;
+}
+
+h2 {
+  font-size: 20px;
+  color: grey;
 }
 .container {
   width: 100%;
@@ -20,6 +26,8 @@ p {
 .box {
   background-color: white;
   color: black;
+  word-wrap: break-word;
+  padding-left: 15px;
 }
 
 .wide {
@@ -34,14 +42,28 @@ p {
 #B {
   background-image: url(assets/a.png);
   background-size: cover;
+  background-position: center;
 }
 
 #C {
   background-image: url(assets/curly_bracet.png);
   background-size: cover;
-  background-position: center;
+  background-position: 60% 70%;
 }
 #D {
   background-image: url(assets/and.png);
   background-size: cover;
+  background-position: center;
+}
+
+#K, #E, #I {
+  background-color: #222222;
+}
+
+#I h1 {
+  color: white;
+}
+
+#J h1 {
+  letter-spacing: 4px;
 }
