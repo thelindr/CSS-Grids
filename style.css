@@ -89,3 +89,26 @@ h2 {
 .innerbox {
   height: 50%;
 }
+
+@media (min-width: 0px) and (max-width: 900px) {
+  .container {
+    grid-template-columns: repeat(2, 50%);
+    grid-auto-rows: 43vw;
+  }
+
+  .wide {
+    padding-bottom: 40px;
+  }
+
+  p {
+  font-size: 14px;
+  }
+
+  h1 {
+  font-size: 30px;
+  }
+
+  h2 {
+  font-size: 20px;
+  }
+}
